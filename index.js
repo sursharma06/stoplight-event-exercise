@@ -5,7 +5,7 @@
 // })();
 
 var stopButton = document.querySelector('#stopButton');
-var stopLight = document.querySelector('#stopLight');
+var stopLight = document.getElementById('stopLight');
 stopButton.addEventListener('click', function () {
     stopLight.classList.toggle('stop');
   });
@@ -45,3 +45,4 @@ document.querySelector('#goButton').addEventListener('mouseenter', function () {
 document.querySelector('#goButton').addEventListener('mouseleave', function () {
   console.log('Left ' + goButton.innerText + ' button');
 });
+//maintaining state in a variable!! google it
